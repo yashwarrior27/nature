@@ -1,0 +1,566 @@
+
+  body{
+      font-family: 'Roboto',sans-serif ;
+  }
+.text-style{
+    color: darkgray;
+   
+}
+.l:hover{
+    border-bottom: 2px solid rgb(38,154,92); 
+}
+.act{
+    border-bottom: 2px solid rgb(38,154,92); 
+    font-size: 16px !important ;
+}
+.l{
+    font-size: 13px;
+}
+.bg1{
+   background-color:  #212121;
+}
+.bg2{
+    background-color: darkgray;
+}
+.li-wi{
+    width: 175px;
+}
+.flag-img{
+    
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+
+}
+.chat-img{
+    
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+
+}
+.scale:hover{
+transform: scale(1.1);
+}
+.bg3{
+    background-color:rgb(247,247,247);
+   
+}
+.bg4{
+    background-color: white;
+    clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+.btn-col{
+    background-color: rgb(126,197,49);
+}
+.border-b{
+    border-bottom: 0px solid;
+}
+
+.logo{
+    padding-left: 1.5rem;
+    margin-left: 3rem;
+}
+@media only screen and (min-width: 992px) and (max-width: 1250px) {
+  .logo{
+      padding-left: 0;
+      margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+    .logo{
+        margin-left: 0;
+    }
+  }
+.bg5{
+    background-image: url("../assets/hero-bg2.jpg");
+     height: 38.60rem;
+     background-position-x: 70%;
+    background-position-y: 100%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) inset;
+}
+.text-color{
+    color: rgb(38,154,92);
+}
+.togglec{
+    position: absolute;
+    right: 40;
+    top: -70;
+}
+.togg-icon{
+    color: rgb(126,197,49); 
+    font-size: 50px !important;
+}
+@media only screen and (max-width: 450px) {
+    .togglec{
+        position: absolute;
+        right: -15;
+        top: -65;
+    }
+
+    .togg-icon{
+        color: rgb(126,197,49); 
+        font-size: 40px !important;
+    }
+    .logo{
+        padding-left: 0px !important;
+    }
+  }
+
+.btnlable{
+    border: 1px solid #7ec531; 
+     color:rgb(38,154,92);
+      font-size: 19.2px;
+      margin-top: 1rem;
+    font-family: Roboto, sans-serif;
+}
+.btnlable:hover{
+    background-color: #7ec531;
+    color: white;
+}
+.text-fonts{
+    font-size: 64px;  
+    font-family: Roboto,sans-serif;
+}
+.text-fonts2{
+    font-size: 40px;
+     font-family: Roboto,sans-serif;
+}
+.text-fonts3{
+    font-size: 21px;
+}
+@media only screen and (max-width: 768px) {
+    .text-fonts{
+        font-size: 48px;
+    }
+    .text-fonts2{
+        font-size:30px
+    }
+  }
+  @media only screen and (max-width: 576px) {
+   .text-fonts3{
+       font-size: 15.75px;
+   }
+   .btnlable{
+       font-size: 14.4px;
+   }
+   .mar1{
+       margin-top: 2rem;
+   }
+  }
+  @media only screen and (max-width: 392px) {
+    .btnlable{
+        font-size: 10px;
+        margin-top: 0;
+    }
+    .mar1{
+        margin-top: 0;;
+    }
+   }
+ .fsize1{
+     font-size: 14.4px;
+ }
+   .bg6{
+       background-image: url("../assets/tiles.jpg");
+   }
+   .bg7{
+       background-color: rgb(38,154,92);
+   }
+   .card-btn1{
+       display: none;
+       color: white;
+       transition: all 1s;
+       background-color: rgb(38,154,92);
+   }
+.card1{
+transform: scale(1);
+height: 220px;
+color: black;
+transition: all .18s;
+box-shadow: 0 0 1px transparent;
+
+    
+}
+.card1:hover{
+    transform:  scale(1.1);
+    background-color: white !important;
+    z-index: 5;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
+    color: rgb(38,154,92) ;
+    cursor: pointer;
+}
+.card1:hover .card-btn1{
+    display: inline;
+
+}
+.v{
+    visibility: hidden;
+}
+.bg8{
+    background-color: rgb(247,247,247);
+    clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+}
+.btnlable2{
+    background-color: #7ec531;
+    color: white;
+}
+.fbtn{
+    background-color: rgb(38,154,92) ; 
+    color: white;
+}
+.bg9{
+   background-color:  rgb(27,27,27);
+
+}
+.text-color2{
+   color:  #737373;
+}
+.inpcol{
+    background-color: rgb(14,14,14);
+}
+::placeholder{
+    color: gray !important;
+}
+.flink{
+    font-size: 11.5px;
+
+}
+/* .bg10{
+    background-image: url("../assets/banner-bg.jpg");
+    background-position-x: -294px;
+      
+
+} */
+.text-head{
+    color: #7ec531;
+}
+.text-color3{
+    color: rgb(38,154,92);
+}
+.t-pad{
+    padding-top: 130px;
+}
+.t-pad1{
+    padding-top: 130px;
+}
+.br1{
+    display: none;
+}
+@media only screen and (max-width: 576px) {
+    .t-pad{
+        padding-top: 20px;
+    }
+    .t-pad1{
+        padding-top: 20px;
+    }
+    
+   }
+@media only screen and (min-width: 1200px) {
+    .img-pad{
+        padding-left: 110px;
+    }
+   }
+   @media only screen and (min-width: 280px) {
+   .hrw{
+       width: 50px;
+   }
+  
+   }
+   @media only screen and (max-width: 768px) {
+    .textal{
+        text-align: center;
+    }
+    .t-pad1{
+        padding-top: 30px
+    }
+    .br1{
+        display: block;
+    }
+   }
+   @media only screen and (max-width: 1050px) {
+    .f1size{
+        font-size: 28px !important;
+    }
+    .f2size{
+        font-size: 24px !important;
+    }
+    .f1-1size{
+        font-size: 28px !important;
+    }
+    .f2-2size{
+        font-size: 24px !important;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .f1size{
+        font-size: 18px !important;
+    }
+    .f2size{
+        font-size: 16px !important;
+    }
+    .f1-1size{
+        font-size: 18px !important;
+    }
+    .f2-2size{
+        font-size: 16px !important;
+    }
+}
+@media only screen and (max-width: 540px) {
+    
+    .f1-1size{
+        font-size: 17px !important;
+    }
+    .f2-2size{
+        font-size: 15px !important;
+    }
+}
+.a-position{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.a1-position{
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.hr1{
+    width: 50;
+    border: 1px solid #7ec531 ;
+}
+.hig{
+    height: 50px; 
+    background-color: whitesmoke;
+}
+.hig::placeholder{
+    color: darkgray !important;
+}
+.border1{
+    border: 4px solid whitesmoke;
+}
+.text-color4{
+    color: #484848;
+}
+.bg11{
+    background-image: url("../assets/green-shapes.jpg");
+    height: 80px;
+}
+.form-position{
+    transform: translateY(40px);
+}
+.bg12{
+    background-image: url("../assets/banner-bg\ \(1\).jpg");
+    background-position-x: -294px;
+}
+.bg13{
+    background-color: whitesmoke;
+}
+.about-body{
+    text-align: center;
+    padding: 0 4em;
+    margin: 1em 0;
+}
+.padt{
+padding-top: 70px;
+}
+@media only screen and (max-width: 900px) {
+    .f3size{
+        font-size: 30px !important;
+    }
+    .f4size{
+        font-size: 25px !important;
+    }
+    .padt{
+        padding-top: 10px;
+    }
+}
+.m-only{
+    display: none;
+}
+.tras{
+    transform: translateY(35px);
+}
+@media only screen and (max-width: 414px) {
+    .m-only{
+        display: block;
+    }
+    .f1-m{
+        font-size: .7em !important;
+    }
+    .f2-m{
+        font-size: 1.1em !important; 
+    }
+    .t-pad1{
+        padding-top: 10px;
+    }
+    .tras{
+        transform: translateY(15px);
+    }
+    .f1-1size{
+        font-size: 16px !important;
+    }
+    .f2-2size{
+        font-size: 14px !important;
+    }
+}
+
+.bg14{
+    background-image: url("../assets/banner-bg\ \(2\).jpg");
+    background-position-x: -294px;
+}
+
+/* .sub-bg1{
+    background-image: url("../assets/muscle-growth2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg2{
+    background-image: url("../assets/cosmetics-beauty.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg3{
+    background-image: url("../assets/herbal-supplements.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg4{
+    background-image: url("../assets/diet-weightloss.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg5{
+    background-image: url("../assets/protein-powders.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg6{
+    background-image: url("../assets/antioxidants.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg7{
+    background-image: url("../assets/natural-oils.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg8{
+    background-image: url("../assets/energy-boosters.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.sub-bg9{
+    background-image: url("../assets/mineral-supplements.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-bg10{
+    background-image: url("../assets/digestive-health.jpg");
+    background-position: center;
+    background-size: cover;
+} */
+
+.img-div{
+    position: relative !important;
+    overflow: hidden !important;
+    border: 4px solid white;
+    transition: all;
+    transition-duration: .3s;
+}
+.img-span{
+    padding: 46% 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    transition: all;
+    transition-duration: .3s;
+}
+.img-span:hover {
+    padding: 2% 0 7%;
+}
+.img-div:hover .img-span{
+    padding: 2% 0 7%;
+}
+.img-div:hover{
+    border: 4px solid #7ec531 ;
+}
+
+.img-span:hover .img-div {
+    border: 2px solid #7ec531 ;
+}
+.padp{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+.bg15{
+    background-image: url("../assets/green-shapes\ \(1\).jpg");
+}
+.bg16{
+    background-image: url("../assets/prod-triangle.png");
+}
+.img-po{
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.p-img{
+    padding: 47% 0;
+  border-radius: 50%;
+  transition: all;
+  transition-duration: .3s;
+}
+.opt-text{
+color: darkgray !important;
+}
+@media  only screen and (max-width: 768px) {
+    .p-img{
+        padding: 20% 0;
+      border-radius: 0;
+  }  
+  .img-span{
+    padding: 20% 0;
+    
+} 
+}
+@media  only screen and (max-width: 992px) {
+    .img-po{
+        position:static;
+       
+    }
+}
+/* .bg17{
+    background-image: url("../assets/banner-bg\ \(3\).jpg");
+    background-position-x: -294px;
+    background-position-y: -55px;
+} */
+.t-pad2{
+    padding-top: 75px;
+}
+@media  only screen and (min-width: 992px) {
+.img-po1{
+    position: absolute;
+    transform: translateY(-129px);
+    left: 50px;
+}
+}
+.bg18{
+ background-image: url("../assets/green-shapes.jpg");    
+}
+.act2{
+    color: #7ec531 !important;;
+}
+.mini-d:hover{
+color: black !important;
+}
+.db-c{
+    background-color: rgba(0,0,0,.6) !important;
+}
+.imgs{
+    max-width: 100px;
+}
